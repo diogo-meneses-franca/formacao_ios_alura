@@ -13,6 +13,7 @@ class ViewController: UIViewController {
 
     
     @IBAction func adicionar(_ sender: Any) {
+        @IBOutlet weak var adicionar: UIButton!
         let nome = nomeTextField.text
         let felicidade = felicidadeTextField.text
         print("Comi \(nome) e fiquei com a felicidade \(felicidade)")
