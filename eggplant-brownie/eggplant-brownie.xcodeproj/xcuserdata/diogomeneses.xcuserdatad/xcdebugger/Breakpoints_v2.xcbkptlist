@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AACB4EF5-82E9-4105-9C05-9A6EC0737189"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6CA94FDA-09AC-4461-B4B0-8B0EAE48A62F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "eggplant-brownie/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6CA94FDA-09AC-4461-B4B0-8B0EAE48A62F - b5a931da842fc847"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "eggplant_brownie.ViewController.felicidadeTextField.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "eggplant-brownie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diogomeneses/projects/Formaca%CC%83o%20IOS/eggplant-brownie/eggplant-brownie/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "6CA94FDA-09AC-4461-B4B0-8B0EAE48A62F - 131ecfe45d6de453"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "eggplant_brownie.ViewController.felicidadeTextField.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "eggplant-brownie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diogomeneses/projects/Formaca%CC%83o%20IOS/eggplant-brownie/eggplant-brownie/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "6CA94FDA-09AC-4461-B4B0-8B0EAE48A62F - 5ad83f5d537baf40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "eggplant_brownie.ViewController.felicidadeTextField.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "eggplant-brownie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diogomeneses/projects/Formaca%CC%83o%20IOS/eggplant-brownie/eggplant-brownie/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "6CA94FDA-09AC-4461-B4B0-8B0EAE48A62F - a1f48c090dfa4340"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "eggplant_brownie.ViewController.felicidadeTextField.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "eggplant-brownie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diogomeneses/projects/Formaca%CC%83o%20IOS/eggplant-brownie/eggplant-brownie/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "6CA94FDA-09AC-4461-B4B0-8B0EAE48A62F - e01052fa003d1f3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "eggplant_brownie.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; eggplant_brownie.ViewController"
+                  moduleName = "eggplant-brownie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diogomeneses/projects/Formaca%CC%83o%20IOS/eggplant-brownie/eggplant-brownie/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "6CA94FDA-09AC-4461-B4B0-8B0EAE48A62F - 73154f71b829ec07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "eggplant_brownie.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;eggplant_brownie.ViewController&gt;"
+                  moduleName = "eggplant-brownie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diogomeneses/projects/Formaca%CC%83o%20IOS/eggplant-brownie/eggplant-brownie/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E31FCAC3-CB01-4F31-B66C-F2B844E219E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "eggplant-brownie/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "adicionar(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
