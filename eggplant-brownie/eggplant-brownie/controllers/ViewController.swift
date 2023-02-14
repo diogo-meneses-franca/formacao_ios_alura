@@ -9,15 +9,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var alimentoTextField: UITextField!
-    @IBOutlet var sentimentoTextField: UITextField!
+    @IBOutlet var refeicaoTextField: UITextField?
+    @IBOutlet var sentimentoTextField: UITextField?
     
-    @IBAction func mostraAlimentos(){
-        let alimento = alimentoTextField.text
-        let sentimento = sentimentoTextField.text
-        print("O alimento escolhido foi: \(alimento), e o sentimento foi: \(sentimento)")
-        
-        
+    @IBAction func mostraAlimentos() {
+        if let nomeDaRefeicao = refeicaoTextField?.text, let felicidadeDaRefeicao = sentimentoTextField?.text{
+            let nome = nomeDaRefeicao
+            if let felicidade = Int(felicidadeDaRefeicao){
+                let refeicao = Refeicao(nome: nome, felicidade: felicidade)
+                print("A refeicao escolhida foi \(refeicao.nome) e a felicidade foi: \(refeicao.felicidade)")
+            }else{
+                print("Felicidade inválida.")
+            }
+            
+        }else{
+            print("refeição inválida.")
+        }
+
     }
 
 
