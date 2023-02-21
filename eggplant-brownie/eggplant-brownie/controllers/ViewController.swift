@@ -7,24 +7,33 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+protocol ViewControllerDelegate{
+    func add(_ refeicao: Refeicao)
+}
 
-    @IBOutlet var refeicaoTextField: UITextField?
-    @IBOutlet var sentimentoTextField: UITextField?
+class ViewController: UIViewController {
+    
+    var delegate: ViewControllerDelegate?
+
+    @IBOutlet var nomeDaRefeicaoTextField: UITextField?
+    @IBOutlet var nome: UITextField!
+    @IBOutlet var felicidadeTextField: UITextField?
     
     @IBAction func mostraAlimentos() {
-        if let nomeDaRefeicao = refeicaoTextField?.text, let felicidadeDaRefeicao = sentimentoTextField?.text{
-            let nome = nomeDaRefeicao
-            if let felicidade = Int(felicidadeDaRefeicao){
-                let refeicao = Refeicao(nome: nome, felicidade: felicidade)
-                print("A refeicao escolhida foi \(refeicao.nome) e a felicidade foi: \(refeicao.felicidade)")
-            }else{
-                print("Felicidade inválida.")
-            }
-            
-        }else{
-            print("refeição inválida.")
+        guard let nomeDaRefeicao = nomeDaRefeicaoTextField?.text else{
+            return
         }
+        guard let felicidadeDaRefeicao = felicidadeTextField?.text, let felicidade = Int(felicidadeDaRefeicao) else {
+            return
+        }
+                
+        let refeicao = Refeicao(nome: nomeDaRefeicao, felicidade: felicidade)
+        print("A refeicao escolhida foi \(refeicao.nome) e a felicidade foi: \(refeicao.felicidade)")
+        
+        delegate?.add(refeicao)
+        
+        navigationController?.popViewController(animated: true)
+           
 
     }
 
