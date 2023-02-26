@@ -14,9 +14,10 @@ class Refeicao: NSObject {
         
         // Mark: Construtor
         
-        init(nome: String, felicidade: Int) {
+    init(nome: String, felicidade: Int, items: [ItemRefeicao] = []) {
             self.nome = nome
             self.felicidade = felicidade
+            self.items = items
         }
         
         // Mark: Funções
